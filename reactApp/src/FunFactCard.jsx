@@ -1,15 +1,9 @@
-function FunFactCard () {
+function FunFactCard ({ fact }) {
     return (
-        <>
     <div>
       <h2>Fun Fact</h2>
-      <p>This is a fun fact.</p>
-    </div>
-    <div>
-      <h2>Fun Fact</h2>
-      <p>I like to eat Zongzi (Chinese Sticky Rice in Bamboo Leaves).</p>
-    </div>
-    </>    
+      <p>{fact}</p>
+    </div>  
   );
 }
 

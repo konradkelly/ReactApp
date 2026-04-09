@@ -7,7 +7,7 @@ import FunFactCard from './FunFactCard'
 
 function App() {
   return (
-    <FunFactCard />
+    <FunFactCard fact="I have visited China 8 times. Yunnan Province is my favorite!" />
   )
 }
 
