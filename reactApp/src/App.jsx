@@ -4,10 +4,12 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import FunFactCard from './FunFactCard'
+import PageHeader from './PageHeader'
 
 function App() {
   return (
     <>
+    <PageHeader />
     <FunFactCard fact="I have visited China 8 times. Yunnan Province is my favorite!" />
     <FunFactCard fact="Agentic engineering peaks my curiosity!" />
     <FunFactCard fact="I like Taiwanese food" />
